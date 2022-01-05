@@ -62,7 +62,7 @@ standard.rate[standard.rate.flu==0, standard.rate.flu:=NA]
 
 job[nperiod==10 & educa =='il']
 
-pdf(file='graph/DesEducationMortalityGap.pdf', width = 8.3,  height =  11.7)
+pdf(file='graph/EducationMortalityGap.pdf', width = 8.3,  height =  11.7)
 
 gg01 <-
 ggplot(data=standard.rate, aes(x=month.brand, color=educa)) +
