@@ -1,4 +1,4 @@
-# Excess mortality rate, using Serfling regression 
+# Excess mortality rate, using Serfling regression [1] 
 
 *Step 1*: fit all data to a cyclic regression model and calculate upper bound of 95%CI, values above upr are considered as epidemic period and excluded from data set.
 
@@ -16,3 +16,6 @@
 #### Regression models considered:
 + Traditional approach of Serfling regression is using linear regression.
 + Here Poisson and Negative Binomial Regression are also considered.
+
+#### Reference
+1. Robert E. Serfling. (1963). Methods for Current Statistical Analysis of Excess Pneumonia-Influenza Deaths. Public Health Reports (1896-1970), 78(6), 494–506. https://doi.org/10.2307/4591848
